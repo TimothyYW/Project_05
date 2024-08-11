@@ -8,6 +8,10 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 
 1. [Origin dataset](#1-origin-dataset)
 
+2. [Business requirements](#2-business-requirements)
+
+9. 
+
 ## **1. Origin Dataset**
 
 + The dataset for this project is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data). 
@@ -60,3 +64,11 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 + Modeling the data using machine learning method, such as Random forest and Gradient boosting
 
 ### User stories
+
+## **9. Main data analytics and Machine learning libraries**
+
++ Numpy is use for data preparation for analysis, such as filling the missing data.
+
++ Pandas is use for data manipulationa and preparation
+
++ 
