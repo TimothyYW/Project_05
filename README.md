@@ -13,6 +13,7 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 + The dataset for this project is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data). 
 + User stories are created to give expectation about users
 + Table below showcasing the variable, the description, 
+
 |Variable|Meaning|Units|
 |:----|:----|:----|
 |1stFlrSF|First Floor square feet|334 - 4692|
@@ -41,3 +42,21 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 |SalePrice|Sale Price|34900 - 755000|
 
 ## **2. Business Requirements**
+
++ Business requirement 1
+    + 
+
++ Business requirement 2
+    +
+
+### Epics
+
++ Data collecting
+
++ Data cleaning, train and testing machine learning models
+
++ Data corralation for bulding accurate models
+
++ Modeling the data using machine learning method, such as Random forest and Gradient boosting
+
+### User stories
