@@ -67,8 +67,17 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 
 ## **9. Main data analytics and Machine learning libraries**
 
-+ Numpy is use for data preparation for analysis, such as filling the missing data.
++ Numpy wass used for data preparation for analysis, such as filling the missing data.
 
-+ Pandas is use for data manipulationa and preparation
++ Pandas was used for data manipulationa and preparation.
 
-+ 
++ Matplot-lib was used to create different plots for the  generate different types of plots.
+
++ Seaborn was used to create statistical graphs for data corralation, and dimension reduction.
+
++ Scikit-learn was used for the regression such as StandardScaler, LinearRegression, ARDRegression, RandomForestRegressor, GradientBoostingRegressor, and KNeighborsRegressor.
+
++ JupyterNoteBook was used as virtual environment for data collection, cleaning, corralation and modeling.
+
++ StreamLit was used for dashboard creation to provide important information.
+
