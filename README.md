@@ -10,7 +10,13 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 
 2. [Business requirements](#2-business-requirements)
 
-9. 
+    + [Epics](#epics)
+
+    + [UserStories](#user-stories)
+
+3. 
+
+9. [Main data analytics and Machine learning libraries](#9-Main-data-analytics-and-Machine-learning-libraries)
 
 ## **1. Origin Dataset**
 
@@ -47,11 +53,8 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 
 ## **2. Business Requirements**
 
-+ Business requirement 1
-    + 
-
-+ Business requirement 2
-    +
+1 - The client is interested in discovering how the house attributes correlate with the sale price. Therefore, the client expects data visualisations of the correlated variables against the sale price to show that.
+2 - The client is interested in predicting the house sale price from her four inherited houses and any other house in Ames, Iowa.
 
 ### Epics
 
@@ -64,6 +67,26 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 + Modeling the data using machine learning method, such as Random forest and Gradient boosting
 
 ### User stories
+
++ As client, I want to be know what features that are corralate with SalePrices, from the most to the least corralated.(Data_Crralation.ipynb)
+
++ As technical user, I want to know which models performing better and which one performing worst. (Modeling.ipynb)
+
++ As techincal user, I want to 
+
++ As client, I want to have a clean datasets that are easy to understand. (Data_Cleaning.ipynb)
+
++ As user, I want to know the source of the data.
+
++ As client, I want 
+
++ As user, I want to see graphs that are simplfied (Data_Cleaning.ipynb)
+
++ As client, I want to see dashboard that shows 
+
++ As
+
++ As
 
 ## **9. Main data analytics and Machine learning libraries**
 
