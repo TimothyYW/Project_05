@@ -104,8 +104,21 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 ## **4. The rationale to map the business requirements**
 
++ Business Requirement 1: data corralation analysis
+
+    + OverallQual, YearBuilt, and YearRemodADD are the highest positive correlation with SalePrice
+    + The category BsmtExposure_No, GarageFinish_Unf, and KitchenQual_TA are the highest negeative correlation with SalePrice
+    + 1stFlrSF and EnclosedPorch has the lowest correlation with SalePrice    
+
 ## **5. ML business case**
 
++ Sale price prediction
+
+    + Sales people will need to know an estimated price so that they can better help their clients decided on listing price for their home.
+
+    + Deciding price to bid offer for the house price.
+
+    
 ## **6. Dashboard design**
 
 ## **7. Unfixed bugs**
