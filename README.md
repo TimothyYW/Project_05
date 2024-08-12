@@ -14,7 +14,11 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 
     + [UserStories](#user-stories)
 
-3. 
+3. [Hypothesis and how to validate](#3-hypothesis-and-how-to-validate)
+
+4. [The rationale to map the business requirements](#4-the-rationale-to-map-the-business-requirements)
+
+5. []()
 
 9. [Main data analytics and Machine learning libraries](#9-Main-data-analytics-and-Machine-learning-libraries)
 
@@ -78,15 +82,19 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 
 + As user, I want to know the source of the data.
 
-+ As client, I want 
++ As client, 
 
 + As user, I want to see graphs that are simplfied (Data_Cleaning.ipynb)
 
-+ As client, I want to see dashboard that shows 
++ As client, 
 
 + As
 
 + As
+
+## **3. Hypothesis and how to validate**
+
+## **4. The rationale to map the business requirements**
 
 ## **9. Main data analytics and Machine learning libraries**
 
