@@ -2,7 +2,7 @@
 
 House Pricing Prediction is Project 5 of predict analytic to help the user to predict of the price of the house, 
 
-![]
+The project has been deployed on Heroku in this [link](https://house-prediction-project-ef397f4fe1e6.herokuapp.com/)
 
 ## Table of contents
 
@@ -18,7 +18,13 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 
 4. [The rationale to map the business requirements](#4-the-rationale-to-map-the-business-requirements)
 
-5. []()
+5. [ML Business case](#5-ml-business-case)
+
+6. [Dashboard intended design](#6-dashboard-design)
+
+7. [Unfixed](#7-unfixed-bugs)
+
+8. [Deployment](#8-deployment)
 
 9. [Main data analytics and Machine learning libraries](#9-Main-data-analytics-and-Machine-learning-libraries)
 
@@ -82,7 +88,7 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 
 + As user, I want to know the source of the data.
 
-+ As client, 
++ As client, I want to
 
 + As user, I want to see graphs that are simplfied (Data_Cleaning.ipynb)
 
@@ -94,7 +100,17 @@ House Pricing Prediction is Project 5 of predict analytic to help the user to pr
 
 ## **3. Hypothesis and how to validate**
 
+
+
 ## **4. The rationale to map the business requirements**
+
+## **5. ML business case**
+
+## **6. Dashboard design**
+
+## **7. Unfixed bugs**
+
+## **8. Deployment**
 
 ## **9. Main data analytics and Machine learning libraries**
 
