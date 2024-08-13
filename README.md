@@ -82,21 +82,21 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 + As technical user, I want to know which models performing better and which one performing worst. (Modeling.ipynb)
 
-+ As techincal user, I want to 
++ As techincal user, I want to know the process of the ML model. (Modeling.ipynb)
 
 + As client, I want to have a clean datasets that are easy to understand. (Data_Cleaning.ipynb)
 
 + As user, I want to know the source of the data.
 
-+ As client, I want to see the dashboard where the data being process
++ As client, I want to see the dashboard where the data can be process.
 
 + As user, I want to see graphs that are simplfied (Data_Cleaning.ipynb)
 
 + As client, 
 
-+ As
++ As user, I want to have access to both unclean and clean data (Data_Cleaning.ipynb)
 
-+ As
++ As user, I want to know the summrize of the project.
 
 ## **3. Hypothesis and how to validate**
 
@@ -108,19 +108,29 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 ## **4. The rationale to map the business requirements**
 
-+ Business Requirement 1: data corralation analysis
++ Business Requirement 1: data correlation analysis
 
     + OverallQual, YearBuilt, and YearRemodADD are the highest positive correlation with SalePrice
     + The category BsmtExposure_No, GarageFinish_Unf, and KitchenQual_TA are the highest negeative correlation with SalePrice
-    + 1stFlrSF and EnclosedPorch has the lowest correlation with SalePrice    
+    + 1stFlrSF and EnclosedPorch has the lowest correlation with SalePrice
+    + As this result can be viewe in [Data correlation](/jupyter_notebooks/03%20Data_Correlation.ipynb)
+
+
 + Business Requirment 2: 
+
+    + the best model was Gradient Boosting with test score of 0.88
+        + with hyper parameters
+    + still showing significant overfitting and further work need to be done to correct this
+    + the baseline model got test score of 0.75
+    + the worst performing model was KNN with test score of 0.75
+    + linear regression and ARDRegression show no overfitting but potentially underfitting seen by the higher test score
+    + This result can be viewe in [Modeling](/jupyter_notebooks/04%20Modeling.ipynb)
 
 ## **5. ML business case**
 
 + Sale price prediction
 
     + Sales people will need to know an estimated price so that they can better help their clients decided on listing price for their home.
-
     + Deciding price to bid offer for the house price.
 
     
@@ -128,11 +138,32 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 + The dashboard designs are sketch out as follows:
 
-    + ![Sketch for the Dashboard]()
+    + ![Sketch for Dashboard design](images/Sketch.png)
+
+From the sketch, the dashboard shows sections that are providing data for the user to see.
+
+### **1. Data Collection**
+
++ This section is where data being collected [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data).
+
++ ![Data collection](images/Screenshots-Data-Collections.png)
+
+### **2. 
 
 ## **7. Unfixed bugs**
 
++ During the deployment for this project, it required to be deploy on Heroku, the link work as intended, but it does not shows the dashboard.
+
 ## **8. Deployment**
+
++ The App live link is: https://house-prediction-project-ef397f4fe1e6.herokuapp.com/
+    Set the runtime.txt Python version to a Heroku-20 stack currently supported version.
++ The project was deployed to Heroku using the following steps.
++ Log in to Heroku and create an App
++ At the Deploy tab, select GitHub as the deployment method.
++ Select your repository name and click Search. Once it is found, click Connect.
++ Select the branch you want to deploy, then click Deploy Branch.
++ The deployment process should happen smoothly if all deployment files are fully functional. Click the button Open App on the top of the page to access your App.
 
 ## **9. Main data analytics and Machine learning libraries**
 
