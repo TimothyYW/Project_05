@@ -1,19 +1,13 @@
 import streamlit as st
 
-def page_summary_body():
+def summary_body():
 
-    st.write('### Quick Project Summary')
+    st.write('### Project Summary')
 
     st.info(
-        'Brain Tumor Detector is a data science and machine learning project. '
-        'The business goal of this project is the differentiation of the '
-        'healthy brain and the one with the tumor based on the brain MRI '
-        'scan images. The project is realised with the Streamlit Dashboard '
-        'and gives to the client a possibility to upload the MRI brain scan '
-        'in order to predict the possible tumor diagnosis. The dashboard '
-        'offers the results of the data analysis, description and the '
-        'analysis of the project\'s hypothesis, and details about the '
-        'performance of the machine learning model.'
+        'House prediction is a project for predict analytic machine learning'
+        'This project helps clients to analyse what is the important features that are affecting the house pricing'
+        'And also give them a modal that can be use to predict the pricing'
         )
 
     st.success(
