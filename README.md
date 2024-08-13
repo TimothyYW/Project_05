@@ -138,7 +138,7 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 + The dashboard designs are sketch out as follows:
 
-    + ![Sketch for Dashboard design](images/Sketch.png)
+    + ![Sketch for Dashboard design](images/)
 
 From the sketch, the dashboard shows sections that are providing data for the user to see.
 
@@ -146,7 +146,7 @@ From the sketch, the dashboard shows sections that are providing data for the us
 
 + This section is where data being collected [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data).
 
-+ ![Data collection](images/Screenshots-Data-Collections.png)
++ ![Data collection](images/)
 
 ### **2. 
 

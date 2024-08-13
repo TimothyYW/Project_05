@@ -12,7 +12,7 @@ class MultiPage:
 
         st.set_page_config(
             page_title=self.app_name,
-            page_icon="🖥️"
+            page_icon="images/icon.png"
         )
 
     def app_page(self, title, func) -> None:
