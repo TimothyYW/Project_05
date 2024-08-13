@@ -19,6 +19,9 @@ class MultiPage:
         """ Appends title"""
         self.pages.append({"title": title, "function": func})
 
+    def add_page(self, title, func) -> None:
+        self.pages.append({"title": title, "function": func})
+
     def run(self):
         """Set title and menu names"""
         st.title(self.app_name)
