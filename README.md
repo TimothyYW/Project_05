@@ -78,7 +78,7 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 ### User stories
 
-+ As client, I want to be know what features that are corralate with SalePrices, from the most to the least corralated.(Data_Crralation.ipynb)
++ As client, I want to be know what features that are corralate with SalePrices, from the most to the least corralated.(Data_Correlation.ipynb)
 
 + As technical user, I want to know which models performing better and which one performing worst. (Modeling.ipynb)
 
@@ -88,7 +88,7 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 + As user, I want to know the source of the data.
 
-+ As client, I want to
++ As client, I want to see the dashboard where the data being process
 
 + As user, I want to see graphs that are simplfied (Data_Cleaning.ipynb)
 
@@ -100,7 +100,11 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 ## **3. Hypothesis and how to validate**
 
++ Based on the correlation that it can be speculated that the most important features are OverallQual, YearBuilt, and YearRemodADD.
 
++ To test this theory we will be using feature important, as the results:
+    + OverallQual is the dominant feature.
+    + 2ndFlrSF and GriLiv are second important feature.
 
 ## **4. The rationale to map the business requirements**
 
@@ -109,6 +113,7 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
     + OverallQual, YearBuilt, and YearRemodADD are the highest positive correlation with SalePrice
     + The category BsmtExposure_No, GarageFinish_Unf, and KitchenQual_TA are the highest negeative correlation with SalePrice
     + 1stFlrSF and EnclosedPorch has the lowest correlation with SalePrice    
++ Business Requirment 2: 
 
 ## **5. ML business case**
 
@@ -120,6 +125,10 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
     
 ## **6. Dashboard design**
+
++ The dashboard designs are sketch out as follows:
+
+    + ![Sketch for the Dashboard]()
 
 ## **7. Unfixed bugs**
 
