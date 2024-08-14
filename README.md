@@ -2,7 +2,7 @@
 
 House Pricing Prediction is Project 5 of predict analytic to help the user to predict of the price of the house, 
 
-
+![Screenshot for app](images/project-5.png)
 
 The project has been deployed on Heroku in this [link](https://house-prediction-project-ef397f4fe1e6.herokuapp.com/)
 
@@ -94,8 +94,6 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 + As user, I want to see graphs that are simplfied (Data_Cleaning.ipynb)
 
-+ As client, 
-
 + As user, I want to have access to both unclean and clean data (Data_Cleaning.ipynb)
 
 + As user, I want to know the summrize of the project.
@@ -150,13 +148,22 @@ From the sketch, the dashboard shows sections that are providing data for the us
 
 + ![Project summary](images/Sketch-summary.png)
 
-### **2. Data Visualzation**
+### **2. Data Visualization**
 
-+ This section sole focus on showing results of all the graphs from the ML.
-+ The raw data follow-up with clean data
-+
-+ ![Project summary](images/Sketch-summary.png)
++ This section sole focus on showing results of all the graphs.
++ The raw data follow-up with clean data.
++ Data correlation.
++ Feature important.
+
++ ![Data Visualization](images/Sketch-data-visualization.png)
+
 ### **3. Price Prediction**
+
++ Pricing prediction will be the machine learning section.
+
++ user will be able to use this section to predict the price.
+
++ ![Price prediction](images/Sketch-price-prediction.png)
 
 ### **4. Hypothesis and Validation**
 
@@ -164,8 +171,15 @@ From the sketch, the dashboard shows sections that are providing data for the us
     + The correlation stated that Qualities has an impact on the price of houses
     + Qualities is consider the most important, while the rest of data is different
 
++ ![Final page](images/Sketch-final-page.png)
+
 ## **7. Unfixed bugs**
 
++ There is no issue with deployment of the app in Heroku.
+
+### **1. issue**
+
++ Unfortunely, the app cannot be fully develop due to running out of time, and real life personal issue. As result Data visualization and Predict price are empty, the sketch for dashboard should be close to how does the design was meant to looks like.
 
 ## **8. Deployment**
 
@@ -195,3 +209,13 @@ From the sketch, the dashboard shows sections that are providing data for the us
 + StreamLit was used for dashboard creation to provide important information.
 
 + Balsamiq was used to create the sketch for the page.
+
+## **10. Credit**
+
+### **1. Code**
+
++ Code is fork over from code institute [template](https://github.com/Code-Institute-Solutions/milestone-project-bring-your-own-data) that is provided for this project
+
+### **2. Achknowledgement**
+
++ Thank you to my mentor Mo Shami, for guiding me and keep in touch with me during my project
