@@ -2,6 +2,8 @@
 
 House Pricing Prediction is Project 5 of predict analytic to help the user to predict of the price of the house, 
 
+
+
 The project has been deployed on Heroku in this [link](https://house-prediction-project-ef397f4fe1e6.herokuapp.com/)
 
 ## Table of contents
@@ -150,6 +152,10 @@ From the sketch, the dashboard shows sections that are providing data for the us
 
 ### **2. Data Visualzation**
 
++ This section sole focus on showing results of all the graphs from the ML.
++ The raw data follow-up with clean data
++
++ ![Project summary](images/Sketch-summary.png)
 ### **3. Price Prediction**
 
 ### **4. Hypothesis and Validation**
@@ -157,7 +163,7 @@ From the sketch, the dashboard shows sections that are providing data for the us
 + This section is about the results from the correlation and the feature important,
     + The correlation stated that Qualities has an impact on the price of houses
     + Qualities is consider the most important, while the rest of data is different
-    
+
 ## **7. Unfixed bugs**
 
 
@@ -188,3 +194,4 @@ From the sketch, the dashboard shows sections that are providing data for the us
 
 + StreamLit was used for dashboard creation to provide important information.
 
++ Balsamiq was used to create the sketch for the page.
