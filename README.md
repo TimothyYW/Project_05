@@ -138,21 +138,28 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 + The dashboard designs are sketch out as follows:
 
-    + ![Sketch for Dashboard design](images/)
+    + ![Sketch for Dashboard design](images/Sketch.png)
 
 From the sketch, the dashboard shows sections that are providing data for the user to see.
 
-### **1. Data Collection**
+### **1. Project summary**
 
-+ This section is where data being collected [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data).
++ This section is about the overall of the project where it talk about business requirements. 
 
-+ ![Data collection](images/)
++ ![Project summary](images/Sketch-summary.png)
 
-### **2. 
+### **2. Data Visualzation**
 
+### **3. Price Prediction**
+
+### **4. Hypothesis and Validation**
+
++ This section is about the results from the correlation and the feature important,
+    + The correlation stated that Qualities has an impact on the price of houses
+    + Qualities is consider the most important, while the rest of data is different
+    
 ## **7. Unfixed bugs**
 
-+ During the deployment for this project, it required to be deploy on Heroku, the link work as intended, but it does not shows the dashboard.
 
 ## **8. Deployment**
 
