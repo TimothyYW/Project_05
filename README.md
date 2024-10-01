@@ -108,7 +108,17 @@ The project has been deployed on Heroku in this [link](https://house-prediction-
 
 ## **4. The rationale to map the business requirements**
 
-+ Business Requirement 1: data correlation analysis
++ Machine Learning
+
+    + Models Selection: Models Linear regression, random forest regressor, and gradient boosting regressor will be tested and compared for the best performing models.
+    + Model experimentation: We will fine tune the hyperparameter for the two best models and choose the best for final model.
+    + R-Squared: We will use the residual plot in seaborn to help us determine where the largest errors happening.
+    + Interpretability: The residual plot is use to understand how the model making prediction and where is error do not align with the business problem.
+    + Scalability: Final model will be tested with small and large data test and it speed will be judge to understand how fast it will predict in practice.
+    + Speed: We will judge the final speed of the model on the small data set and large data set. 
+    + Privacy: This is not a concern because personal information provided.
+
++ Business Requirement 1: data visualization - correlation analysis.
 
     + OverallQual, YearBuilt, and YearRemodADD are the highest positive correlation with SalePrice
     + The category BsmtExposure_No, GarageFinish_Unf, and KitchenQual_TA are the highest negeative correlation with SalePrice
