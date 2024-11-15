@@ -1,19 +1,24 @@
 import streamlit as st
-from app_pages.multipage import MultiPage
-
-# load pages scripts
-from app_pages.summary import summary_body
-from app_pages.hypothesis import project_hypothesis_body
 from app_pages.price_prediction import price_prediction_body
-from app_pages.data_visualization import data_visualization_body
+from app_pages.summary import summary_body
 
-app = MultiPage(app_name="House prediction")  # Create an instance of the app
+def main():
+    st.set_page_config(
+        page_title="House Price Prediction",
+        page_icon="🏠",
+        layout="wide"
+    )
 
-# Add your app pages here using .add_page()
-app.add_page('Project Summary', summary_body)
-app.add_page('Data Visualization',data_visualization_body)
-app.add_page('Price Prediction', price_prediction_body)
-app.add_page('Project Hypothesis and Validation',project_hypothesis_body)
+    pages = {
+        "Summary": summary_body,
+        "Price Prediction": price_prediction_body
+    }
 
+    st.sidebar.title("Navigation")
+    selection = st.sidebar.radio("Go to", list(pages.keys()))
 
-app.run()  # Run the app
+    page = pages[selection]
+    page()
+
+if __name__ == "__main__":
+    main()

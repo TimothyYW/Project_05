@@ -1,6 +1,10 @@
-import joblib
-import pandas as pd
 import streamlit as st
+import pandas as pd
+import numpy as np
+import joblib
+from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+import plotly.express as px
+import plotly.graph_objects as go
 
 def load_models():
     try:
@@ -19,30 +23,30 @@ def load_models():
         st.error(f"Error loading models: {str(e)}")
         return None
 
-def show_predict_page():
-    st.title("House Price Prediction")
+def price_prediction_body():
+    st.title("🏠 House Price Prediction")
 
     uploaded_file = st.file_uploader("Upload your file (CSV/Excel)", type=['csv', 'xlsx'])
     
     if uploaded_file is not None:
         try:
-            
-            if uploaded_file.size > 200 * 1024 * 1024:  
+            # Validasi file size
+            if uploaded_file.size > 200 * 1024 * 1024:  # 200MB limit
                 st.error("File too large. Please upload a file smaller than 200MB")
                 return
 
-            
+            # Baca file
             if uploaded_file.name.endswith('.csv'):
                 df = pd.read_csv(uploaded_file)
             else:
                 df = pd.read_excel(uploaded_file)
             
-            
+            # Validasi data
             if df.empty:
                 st.error("The uploaded file is empty")
                 return
                 
-          
+            # Validasi tipe data
             numeric_columns = ['sqft', 'bedrooms', 'bathrooms', 'floors', 'year_built']
             for col in numeric_columns:
                 if col in df.columns and not pd.to_numeric(df[col], errors='coerce').notnull().all():
@@ -65,11 +69,11 @@ def show_predict_page():
                 with st.spinner('Processing predictions...'):
                     predictions = {}
                     
-                    
+                    # Melakukan prediksi dengan semua model
                     for name, model in models.items():
                         predictions[name] = model.predict(df[required_columns])
                     
-                    
+                    # Jika ada kolom actual_price, evaluasi model
                     if 'actual_price' in df.columns:
                         scores = evaluate_predictions(df['actual_price'], predictions)
                         
@@ -83,14 +87,14 @@ def show_predict_page():
                         df['predicted_price'] = predictions[best_model]
                         df['model_used'] = best_model
                     else:
-                        
+                        # Tampilkan hasil semua model
                         for name, preds in predictions.items():
                             df[f'predicted_price_{name}'] = preds
                     
                     st.write("Prediction Results:")
                     st.dataframe(df)
                     
-                    
+                    # Download hasil
                     csv = df.to_csv(index=False)
                     st.download_button(
                         label="Download Results",
@@ -105,3 +109,6 @@ def show_predict_page():
             st.error("Error parsing the file. Please make sure it's a valid CSV/Excel file")
         except Exception as e:
             st.error(f"Error processing file: {str(e)}")
+
+if __name__ == "__main__":
+    price_prediction_body()
